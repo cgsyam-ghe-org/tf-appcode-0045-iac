@@ -26,7 +26,7 @@ jobs:
         with:
           create_credentials_file: true
           token_format: 'access_token'
-          workload_identity_provider: 'projects/1000025393506/locations/global/workloadIdentityPools/org-wif-prod/providers/gh-provider'
+          workload_identity_provider: 'projects/1000025393506/locations/global/workloadIdentityPools/org-wif-attr-map/providers/gh-provider'
           service_account: 'sa-ghe-appcode-0045-prod@prj-appcode-0045-prod-1fa3.iam.gserviceaccount.com'
           
       - name: 'Configure docker login for GAR, GCR'
